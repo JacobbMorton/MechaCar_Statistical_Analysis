@@ -2,7 +2,7 @@
  
 ## Linear Regression to Predict MPG
 
-<img src="https://github.com/JacobbMorton/MechaCar_Statistical_Analysis/blob/main/Screenshot%202021-12-26%20152719.png" width="600" >
+<img src="https://github.com/JacobbMorton/MechaCar_Statistical_Analysis/blob/main/MPG.png" width="600" >
 
 The variables and coefficients that provided a non-random amount of variances were the Intercept, ground clearance and the mpg. 
 
