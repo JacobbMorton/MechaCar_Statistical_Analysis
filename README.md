@@ -11,3 +11,4 @@ The slope of the linear model is never considered to be zero because the calcula
 The linear model predicts the mpg of the mechacar prototypes effectively because the Multiple R-squared value is closer to 1 with a value of .71.
 
 <img src="https://github.com/JacobbMorton/MechaCar_Statistical_Analysis/blob/main/Lot Summary.png" width="600" >
+<img src="https://github.com/JacobbMorton/MechaCar_Statistical_Analysis/blob/main/Total Summary.png" width="600" >
