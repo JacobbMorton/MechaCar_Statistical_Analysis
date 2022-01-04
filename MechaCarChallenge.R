@@ -3,3 +3,6 @@ mechampg <- read.csv(file='MechaCar_mpg.csv', check.names = F,stringsAsFactors =
 lm(mechampg)
 summary(lm(mechampg))
 
+susp_sum <- read.csv(file='Suspension_Coil.csv', check.names = F,stringsAsFactors = F)
+Total_Summary <- susp_sum %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+lot_summary <- susp_sum %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
